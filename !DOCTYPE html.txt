@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gamepad Overlay</title>
+  <style>
+    body {
+      background-color: black;
+    }
+    svg {
+      width: 700px;
+      display: block;
+      margin: auto;
+    }
+    .button:hover {
+      fill: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<svg viewBox="0 0 1421 768" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background image -->
+  <image href="https://i.postimg.cc/q7Wzc8sT/Untitled.png" x="0" y="0" width="1421" height="768" />
+
+  <!-- Interactive buttons (positioned manually) -->
+  <!-- Right buttons -->
+  <a href="https://example.com/A" target="_blank">
+    <circle class="button" cx="1006" cy="249" r="25" fill="transparent" />
+  </a>
+  <a href="https://example.com/B" target="_blank">
+    <circle class="button" cx="940" cy="305" r="25" fill="transparent" />
+  </a>
+  <a href="https://example.com/X" target="_blank">
+    <circle class="button" cx="940" cy="190" r="25" fill="transparent" />
+  </a>
+  <a href="https://example.com/Y" target="_blank">
+    <circle class="button" cx="874" cy="249" r="25" fill="transparent" />
+  </a>
+
+  <!-- D-Pad (left cross) -->
+  <a href="https://example.com/Up" target="_blank">
+    <rect class="button" x="463" y="185" width="35" height="40" fill="transparent" />
+  </a>
+  <a href="https://example.com/Left" target="_blank">
+    <rect class="button" x="415" y="229" width="35" height="40" fill="transparent" />
+  </a>
+  <a href="https://example.com/Right" target="_blank">
+    <rect class="button" x="510" y="229" width="35" height="40" fill="transparent" />
+  </a>
+  <a href="https://example.com/Down" target="_blank">
+    <rect class="button" x="463" y="275" width="35" height="40" fill="transparent" />
+  </a>
+
+  <!-- Analog sticks -->
+  <a href="https://example.com/LeftStick" target="_blank">
+    <circle class="button" cx="591" cy="370" r="35" fill="transparent" />
+  </a>
+  <a href="https://example.com/RightStick" target="_blank">
+    <circle class="button" cx="831" cy="370" r="35" fill="transparent" />
+  </a>
+  
+ <!-- Triggers -->
+  <a href="https://example.com/LT" target="_blank">
+    <rect class="button" x="450" y="-10" width="100" height="100" rx="20" fill="transparent" />
+  </a>
+  <a href="https://example.com/RT" target="_blank">
+    <rect class="button" x="880" y="-10" width="100" height="100" rx="20" fill="transparent" />
+  </a>
+
+  <!-- Bumpers -->
+  <a href="https://example.com/LB" target="_blank">
+    <rect class="button" x="415" y="105" width="150" height="30" rx="10" fill="transparent" />
+  </a>
+  <a href="https://example.com/RB" target="_blank">
+    <rect class="button" x="855" y="105" width="150" height="30" rx="10" fill="transparent" />
+  </a>
+
+  <!-- Menu / Start buttons -->
+  <a href="https://example.com/View" target="_blank">
+    <rect class="button" x="645" y="241" width="55" height="15" rx="10" fill="transparent" />
+  </a>
+  <a href="https://example.com/Menu" target="_blank">
+    <rect class="button" x="720" y="241" width="55" height="15" rx="10" fill="transparent" />
+  </a>
+
+</svg>
+
+</body>
+</html>
